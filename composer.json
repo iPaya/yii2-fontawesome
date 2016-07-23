@@ -1,0 +1,32 @@
+{
+    "name": "yiizh/yii2-fontawesome",
+    "description": "The FontAwesome extension for Yii2.",
+    "homepage": "https://github.com/yiizh/yii2-fontawesome",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "FontAwesome"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "fortawesome/font-awesome": "v4.6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiizh\\fontawesome\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
