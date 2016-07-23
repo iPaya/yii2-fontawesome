@@ -9,16 +9,18 @@ use yii\web\AssetBundle;
 
 class FontAwesomeAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/fontawesome/font-awesome';
+    public $sourcePath = '@vendor/fortawesome/font-awesome';
 
     public $css = [
         'css/font-awesome.css'
     ];
 
-    public $publishOptions = [
-        'only' => [
-            'css',
-            'fonts',
-        ]
-    ];
+    public function init()
+    {
+        parent::init();
+
+        $this->publishOptions['beforeCopy'] = function ($from, $to) {
+            return preg_match('%(/|\\\\)(fonts|css)%', $from);
+        };
+    }
 }
