@@ -3,7 +3,7 @@
  * @author Di Zhang <alex@extong.net>
  */
 
-namespace yiizh\fontawesome;
+namespace iPaya\fontAwesome;
 
 use yii\web\AssetBundle;
 
