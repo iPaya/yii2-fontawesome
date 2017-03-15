@@ -1,8 +1,9 @@
 <?php
 /**
- * @author Di Zhang <alex@extong.net>
+ * @link http://ipaya.cn/
+ * @copyright Copyright (c) 2016 ipaya.cn
+ * @license http://ipaya.cn/license/
  */
-
 namespace iPaya\fontAwesome;
 
 use yii\web\AssetBundle;

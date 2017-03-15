@@ -1,8 +1,9 @@
 <?php
 /**
- * @copyright Copyright (c) 2016 医讯通
+ * @link http://ipaya.cn/
+ * @copyright Copyright (c) 2016 ipaya.cn
+ * @license http://ipaya.cn/license/
  */
-
 namespace iPaya\fontAwesome;
 
 use yii\helpers\Html;
