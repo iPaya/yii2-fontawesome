@@ -2,7 +2,6 @@
 /**
  * @link http://ipaya.cn/
  * @copyright Copyright (c) 2016 ipaya.cn
- * @license http://ipaya.cn/license/
  */
 
 // ensure we get report on all possible php errors
@@ -13,5 +12,5 @@ $_SERVER['SCRIPT_NAME'] = '/' . __DIR__;
 $_SERVER['SCRIPT_FILENAME'] = __FILE__;
 require_once(__DIR__ . '/../vendor/autoload.php');
 require_once(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
-Yii::setAlias('@iPayaUnit/fontAwesome', __DIR__);
-Yii::setAlias('@iPaya/fontAwesome', dirname(__DIR__));
+Yii::setAlias('@iPayaUnit/Yii2/FontAwesome', __DIR__);
+Yii::setAlias('@iPaya/Yii2/FontAwesome', dirname(__DIR__));

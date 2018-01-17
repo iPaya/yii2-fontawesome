@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ @link http://ipaya.cn/
+  ~ @copyright Copyright (c) 2016 ipaya.cn
+  -->
+
 <phpunit bootstrap="./tests/bootstrap.php"
          colors="true"
          convertErrorsToExceptions="true"

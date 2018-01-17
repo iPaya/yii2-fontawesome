@@ -2,16 +2,12 @@
 /**
  * @link http://ipaya.cn/
  * @copyright Copyright (c) 2016 ipaya.cn
- * @license http://ipaya.cn/license/
  */
 
-namespace iPayaUnit\fontAwesome;
+namespace iPayaUnit\Yii2\FontAwesome;
 
 
-use iPaya\fontAwesome\Fa;
-use yii\base\Action;
-use yii\base\Module;
-use yii\web\Controller;
+use iPaya\Yii2\FontAwesome\Fa;
 
 class FaTest extends TestCase
 {
