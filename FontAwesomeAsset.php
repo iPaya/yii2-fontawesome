@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 
 class FontAwesomeAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/assets';
+    public $sourcePath = '@vendor/fortawesome/font-awesome';
     public $css = [
         'css/font-awesome.css'
     ];
