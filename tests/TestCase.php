@@ -2,19 +2,18 @@
 /**
  * @link http://ipaya.cn/
  * @copyright Copyright (c) 2016 ipaya.cn
- * @license http://ipaya.cn/license/
  */
 
-namespace iPayaUnit\fontAwesome;
+namespace iPayaUnit\Yii2\FontAwesome;
 
+use Yii;
 use yii\di\Container;
 use yii\helpers\ArrayHelper;
-use Yii;
 
 /**
  * This is the base class for all yii framework unit tests.
  */
-abstract class TestCase extends \PHPUnit_Framework_TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     protected function setUp()
     {
