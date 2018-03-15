@@ -15,11 +15,9 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*",
-        "fortawesome/font-awesome": "*"
+        "yiisoft/yii2": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": ">4.8.20 <6.0"
     },
     "autoload": {
         "psr-4": {

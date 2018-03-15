@@ -1,0 +1,15 @@
+/*!
+ * @link http://ipaya.cn/
+ * @copyright Copyright (c) 2016 ipaya.cn
+ */
+
+// Screen Readers
+// -------------------------
+
+.sr-only {
+    @include sr-only;
+}
+
+.sr-only-focusable {
+    @include sr-only-focusable;
+}
